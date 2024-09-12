@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: rest-api-aula
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://192.168.68.230:3306/api_rest_aula?useTimezone=true&serverTimezone=UTC
+    username: cesar
+    password: 91344356
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      show_sql: false
+    open-in-view: false
